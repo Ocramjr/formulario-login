@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <form>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" placeholder="Digite seu nome." id="name" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" placeholder="Digite seu e-mail." id="mail" name="mail">
+            </div>
+            <br>
+            <div>
+                <label for="tel">Telefone:</label>
+                <input type="tel" placeholder="Digite seu telefone." id="tel" name="tel">
+            </div>
+            <br>
+            <div>
+                <label for="date">Data de Nascimento:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <p>Vagas de interesse:</p>
+                <label for="Full-Stack">
+                    <input type="checkbox" name="Full-Stack" id="Full-Stack">
+                    <span>Full-Stack</span>
+                </label>
+                <label for="Frontend">
+                    <input type="checkbox" name="Frontend" id="Frontend">
+                    <span>Frontend</span>
+                </label>
+                <label for="Backend">
+                    <input type="checkbox" name="Backend" id="Backend">
+                    <span>Backend</span>
+                </label>
+            </div>
+            <div>
+                <p>Sexo:</p>
+                <label for="masculino">
+                    <input type="radio" name="sexo" id="masculino" value="Masculino">
+                    <span>Masculino</span>
+                </label>
+                <label for="feminino">
+                    <input type="radio" name="sexo" id="feminino" value="Feminino">
+                    <span>Feminino</span>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="cv">Currículo:</label>
+                <br><br>
+                <input type="file" id="cv" name="cv">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
