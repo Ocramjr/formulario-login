@@ -1,0 +1,44 @@
+body, p {
+    background-color:cadetblue;
+    margin: 0;
+}
+
+.formulario {
+    height: auto;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button {
+    padding: 8px 0;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    align-self: center;
+    outline: none;
+    border: none;
+}
